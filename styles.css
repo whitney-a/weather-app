@@ -1,0 +1,75 @@
+h1 {
+  font-weight: normal;
+  font-size: 30px;
+  padding-top: 30px;
+}
+strong {
+  font-size: 15px;
+  font-weight: normal;
+}
+.emoji {
+  font-size: 50px;
+}
+.form-control {
+  width: 500px;
+  background: #323438;
+}
+h2,
+h3 {
+  font-size: 20px;
+  color: #323438;
+}
+
+h4 {
+  font-size: 20px;
+  color: #323438;
+  margin-left: 0px;
+  padding-top: 0;
+}
+.weather {
+  margin-left: 1000px;
+  right: 0;
+  color: blue;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.col {
+  padding-left: 8px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  padding-right: 8px;
+  border: 1px solid #323438;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 25px;
+  color: #2657a6;
+  padding-top: 20px;
+  background: #323438;
+}
+body {
+  margin: 0 50px;
+  padding: 30px 30px;
+  background: black;
+}
+.btn-primary {
+  display: inline;
+  padding: 15px 20px;
+  border-radius: 30px;
+  width: 100px;
+  margin-right: 20px;
+}
+#city {
+  border-radius: 30px;
+  margin-right: 20px;
+}
+#currentBtn {
+  display: inline;
+  padding: 15px 20px;
+  border-radius: 30px;
+  width: 100px;
+  margin-right: 20px;
+  padding-right: 140px;
+  align-content: center;
+}

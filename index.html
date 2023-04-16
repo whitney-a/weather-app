@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="formControl">
+        <div class="row">
+          <input
+            type="text"
+            placeholder="Enter City"
+            class="form-control col-10"
+            autofocus="on"
+            id="city"
+          />
+          <input type="submit" class="btn btn-primary" value="Search" />
+          <button
+            value="CurrentLocation"
+            class="btn btn-primary"
+            id="currentBtn"
+          >
+            CurrentLocation
+          </button>
+        </div>
+      </form>
+      <h1>
+        <span class="emoji"> ⛅ </span>
+        <h2>Abuja, Nigeria.</h2>
+        <h3>Friday, 10:02</h3>
+        <h4>32°C | F</h4>
+      </h1>
+      <div class="weather">
+        Precipitation: 0%<br />
+        Humidity: 47%<br />
+        Wind: 10 km/h
+      </div>
+      <div class="row">
+        <div class="col">Sun<br />🌦<br /><strong>19°C | F </strong></div>
+        <div class="col">Mon<br />☔<br /><strong>23°C | F</strong></div>
+        <div class="col">Tue<br />🌦<br /><strong>50°C | F</strong></div>
+        <div class="col">Wed<br />🌒<br /><strong>10°C | F</strong></div>
+        <div class="col">Thurs<br />🌟<br /><strong>100°C | F</strong></div>
+        <div class="col">Fri<br />⛈<br /><strong>40°C | F</strong></div>
+        <div class="col">Sat<br />⛅<br /><strong>65°C | F</strong></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
