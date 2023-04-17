@@ -1,6 +1,8 @@
 function fetchTemperature(response) {
   document.querySelector("h2").innerHTML = response.data.name;
-  document.querySelector("h4").innerHTML = `${response.data.main.temp} °C`;
+  document.querySelector("h4").innerHTML = `${Math.round(
+    response.data.main.temp
+  )} °C`;
 }
 
 let formControl = document.querySelector("#formControl");
